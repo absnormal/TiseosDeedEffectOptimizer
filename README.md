@@ -1,29 +1,14 @@
-# TiseosDeedEffectOptimizer
+### 夢幻模擬戰浮空城契約模擬器
 
-This template should help get you started developing with Vue 3 in Vite.
+[模擬器連結](https://absnormal.github.io/TiseosDeedEffectOptimizer/)
 
-## Recommended IDE Setup
+可以依照擁有的角色尋找契約最優解
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+在右方點擊刪去"你沒有的角色"會變成灰色 :arrow_right: 從可選名單中去除
+再次點擊會變回彩色 :arrow_right: 加回可選名單
+正在選取的角色會有藍色外框
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- 每次改動名單會重新計算一次最優解
+- 各建築角色共通
+- 計算時最低連結數為2(會算太久，可能會修改)
+- 4個建築的角色可能會被共用

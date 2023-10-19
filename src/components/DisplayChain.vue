@@ -2,7 +2,7 @@
 import { watch } from 'vue'
 import { sharedLegions } from './functions/sharedLegions'
 import pageLimits from './json/pageLimits.json'
-const path = "/src/components/imgs/"
+const path = "src/components/imgs/"
 const chainPath = ["Frame_Chain02", "Frame_Chain03", "Frame_Chain04"]
 const chainColor = ["gray", "mediumblue", "cyan"]
 

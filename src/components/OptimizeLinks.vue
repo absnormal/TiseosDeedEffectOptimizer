@@ -3,9 +3,9 @@ import { watch, ref } from 'vue';
 import { sharedLegions } from './functions/sharedLegions.js'
 import pageLimits from './json/pageLimits.json'
 import DisplayChain from './DisplayChain.vue';
-const path = "./src/components/imgs/"
-const headPath = "./src/components/imgs/head/Head_"
-const classPath = "./src/components/imgs/occupation/"
+const path = "src/components/imgs/"
+const headPath = "src/components/imgs/head/Head_"
+const classPath = "src/components/imgs/occupation/"
 
 const props = defineProps({
 	pageDisplayName: String,

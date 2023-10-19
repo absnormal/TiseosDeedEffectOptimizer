@@ -1,0 +1,966 @@
+[{
+    "name": "神降者",
+    "fileName": "Apotheosis",
+    "legion": ["超凡", "黑暗", "傳說"],
+    "class": ["飛", "魔"]
+},{
+    "name": "傑克船長",
+    "fileName": "Jack",
+    "legion": ["流星", "傳說", "光輝"],
+    "class": ["步", "水"]
+},{
+    "name": "莉娜",
+    "fileName": "Lina",
+    "legion": ["主角", "黑暗", "時空"],
+    "class": ["步", "法"]
+},{
+    "name": "杰路剛帝士",
+    "fileName": "Zelgadiss",
+    "legion": ["戰略", "超凡", "時空"],
+    "class": ["步", "法"]
+},{
+    "name": "高里",
+    "fileName": "Gourry",
+    "legion": ["主角", "時空", "光輝"],
+    "class": ["步"]
+},{
+    "name": "羅蘭",
+    "fileName": "Roland",
+    "legion": ["主角", "傳說", "光輝"],
+    "class": ["僧", "法"]
+},{
+    "name": "普蕾西亞",
+    "fileName": "Precia",
+    "legion": ["主角", "公主", "超凡"],
+    "class": ["僧", "槍"]
+},{
+    "name": "托米爾克",
+    "fileName": "TourMilk",
+    "legion": ["起源", "傳說", "超凡"],
+    "class": ["僧", "法"]
+},{
+    "name": "伊莉絲",
+    "fileName": "Iris",
+    "legion": ["流星", "傳說", "超凡"],
+    "class": ["僧", "騎"]
+},{
+    "name": "寧芙",
+    "fileName": "Nymph",
+    "legion": ["流星", "公主", "傳說"],
+    "class": ["水"]
+},{
+    "name": "塔塔利亞",
+    "fileName": "Tatalia",
+    "legion": ["流星", "黑暗", "超凡"],
+    "class": ["刺"]
+},{
+    "name": "霧香",
+    "fileName": "Kirika",
+    "legion": ["傳說", "公主", "時空"],
+    "class": ["弓"]
+},{
+    "name": "桑妮雅",
+    "fileName": "Branche",
+    "legion": ["時空", "公主", "光輝"],
+    "class": ["步"]
+},{
+    "name": "艾克雪拉",
+    "fileName": "Excela",
+    "legion": ["帝國", "戰略", "時空"],
+    "class": ["槍", "飛"]
+},{
+    "name": "阿瑪迪斯",
+    "fileName": "Amadeus",
+    "legion": ["起源", "超凡", "戰略"],
+    "class": ["騎"]
+},{
+    "name": "薩格尼",
+    "fileName": "Sagny",
+    "legion": ["戰略", "傳說", "超凡"],
+    "class": ["僧", "法"]
+},{
+    "name": "醒覺者",
+    "fileName": "Awakener",
+    "legion": ["超凡", "時空", "黑暗"],
+    "class": ["法", "魔"]
+},{
+    "name": "范恩",
+    "fileName": "Van",
+    "legion": ["主角", "傳說", "時空"],
+    "class": ["步", "魔"]
+},{
+    "name": "艾雷因",
+    "fileName": "Elaine",
+    "legion": ["流星", "戰略", "時空"],
+    "class": ["步"]
+},{
+    "name": "亞妮艾絲",
+    "fileName": "Agnes",
+    "legion": ["時空", "公主", "光輝"],
+    "class": ["僧", "法"]
+},{
+    "name": "格倫希爾",
+    "fileName": "Grunhind",
+    "legion": ["戰略", "公主", "起源"],
+    "class": ["步", "飛"]
+},{
+    "name": "瓊&康娜",
+    "fileName": "Yoa&Conna",
+    "legion": ["戰略", "帝國", "轉生"],
+    "class": ["弓"]
+},{
+    "name": "波莉阿魯",
+    "fileName": "Polyal",
+    "legion": ["黑暗", "傳說", "轉生"],
+    "class": ["僧", "槍"]
+},{
+    "name": "盧古耐爾",
+    "fileName": "Lugner",
+    "legion": ["戰略", "轉生", "光輝"],
+    "class": ["僧", "法"]
+},{
+    "name": "里奧貝克",
+    "fileName": "RioBec",
+    "legion": ["帝國", "超凡", "黑暗"],
+    "class": ["法", "魔"]
+},{
+    "name": "席恩",
+    "fileName": "Zion",
+    "legion": ["流星", "戰略", "起源"],
+    "class": ["弓", "刺"]
+},{
+    "name": "光影劍魄",
+    "fileName": "SwordofLight&Shadow",
+    "legion": ["主角", "轉生", "超凡"],
+    "class": ["魔", "步"]
+},{
+    "name": "殼中少女",
+    "fileName": "GirlInShell",
+    "legion": ["黑暗", "公主", "轉生"],
+    "class": ["法"]
+},{
+    "name": "光佑使徒",
+    "fileName": "Lightbringer",
+    "legion": ["主角", "超凡", "光輝"],
+    "class": ["僧", "步"]
+},{
+    "name": "亞德凱摩",
+    "fileName": "Adankelmo",
+    "legion": ["戰略", "傳說", "超凡"],
+    "class": ["僧", "法"]
+},{
+    "name": "坂田銀時",
+    "fileName": "GintokiSakata",
+    "legion": ["主角", "傳說", "時空"],
+    "class": ["步"]
+},{
+    "name": "神樂",
+    "fileName": "Kagura",
+    "legion": ["主角", "公主", "時空"],
+    "class": ["騎", "槍"]
+},{
+    "name": "志村新八",
+    "fileName": "ShinpachiShimura",
+    "legion": ["主角", "時空"],
+    "class": ["僧", "步"]
+},{
+    "name": "馬庫雷",
+    "fileName": "McClaine",
+    "legion": ["流星", "戰略", "傳說"],
+    "class": ["水", "刺"]
+},{
+    "name": "里奇",
+    "fileName": "Ricky",
+    "legion": ["主角", "傳說", "光輝"],
+    "class": ["槍", "步"]
+},{
+    "name": "飄逐鬥客",
+    "fileName": "WanderingDuelist",
+    "legion": ["流星", "戰略", "傳說"],
+    "class": ["槍", "飛"]
+},{
+    "name": "朱利安",
+    "fileName": "Julian",
+    "legion": ["流星", "黑暗", "轉生"],
+    "class": ["弓", "刺"]
+},{
+    "name": "亞莎梅爾",
+    "fileName": "Ashumere",
+    "legion": ["起源", "公主", "超凡"],
+    "class": ["僧", "法"]
+},{
+    "name": "洛斯塔姆",
+    "fileName": "Rostam",
+    "legion": ["流星", "戰略", "起源"],
+    "class": ["步", "刺"]
+},{
+    "name": "輝夜",
+    "fileName": "Kaguya",
+    "legion": ["公主", "戰略", "超凡"],
+    "class": ["法", "僧"]
+},{
+    "name": "卡洛莉安",
+    "fileName": "Carolian",
+    "legion": ["戰略", "帝國", "光輝"],
+    "class": ["騎"]
+},{
+    "name": "梓",
+    "fileName": "Azusa",
+    "legion": ["戰略", "起源", "超凡"],
+    "class": ["僧"]
+},{
+    "name": "朧",
+    "fileName": "Oboro",
+    "legion": ["起源", "傳說", "超凡"],
+    "class": ["龍", "槍"]
+},{
+    "name": "賽貝莉亞",
+    "fileName": "Selvaria",
+    "legion": ["戰略", "帝國", "時空"],
+    "class": ["步", "弓"]
+},{
+    "name": "亞莉希亞",
+    "fileName": "Alicia",
+    "legion": ["主角", "超凡", "時空"],
+    "class": ["弓"]
+},{
+    "name": "伊莎拉",
+    "fileName": "Isara",
+    "legion": ["戰略", "時空"],
+    "class": ["弓", "騎"]
+},{
+    "name": "鐵血總帥",
+    "fileName": "IronChancellor",
+    "legion": ["戰略", "帝國", "傳說"],
+    "class": ["僧", "步"]
+},{
+    "name": "月之執政官",
+    "fileName": "TheConsul",
+    "legion": ["戰略", "傳說", "超凡"],
+    "class": ["水"]
+},{
+    "name": "米歇爾",
+    "fileName": "Michelle",
+    "legion": ["光輝", "轉生"],
+    "class": ["槍", "步"]
+},{
+    "name": "古斯塔夫",
+    "fileName": "Gustav",
+    "legion": ["黑暗", "超凡", "轉生"],
+    "class": ["魔", "法"]
+},{
+    "name": "麗莎",
+    "fileName": "Liza",
+    "legion": ["流星", "傳說", "主角"],
+    "class": ["弓", "刺"]
+},{
+    "name": "方舟聖女",
+    "fileName": "TheSaintofArk",
+    "legion": ["主角", "公主", "超凡"],
+    "class": ["魔", "法"]
+},{
+    "name": "洛維奈爾大帝",
+    "fileName": "EmperorLoviner",
+    "legion": ["主角", "戰略", "轉生"],
+    "class": ["步", "騎"]
+},{
+    "name": "艾爾瑪",
+    "fileName": "Erma",
+    "legion": ["主角", "轉生", "光輝"],
+    "class": ["僧"]
+},{
+    "name": "凱爾蒂絲",
+    "fileName": "Kertesz",
+    "legion": ["轉生", "黑暗"],
+    "class": ["法", "魔"]
+},{
+    "name": "維坦",
+    "fileName": "Wehttam",
+    "legion": ["黑暗", "主角", "超凡"],
+    "class": ["飛", "魔"]
+},{
+    "name": "維爾納",
+    "fileName": "Verner",
+    "legion": ["流星", "傳說", "光輝"],
+    "class": ["步", "刺"]
+},{
+    "name": "瑪莉安蒂爾",
+    "fileName": "Mariandel",
+    "legion": ["傳說", "公主", "超凡"],
+    "class": ["僧", "法"]
+},{
+    "name": "超越之人",
+    "fileName": "Transcendent",
+    "legion": ["轉生", "黑暗", "傳說"],
+    "class": ["僧", "魔"]
+},{
+    "name": "阿爾法",
+    "fileName": "Alpha",
+    "legion": ["帝國", "黑暗"],
+    "class": ["槍", "步"]
+},{
+    "name": "克里斯蒂安妮",
+    "fileName": "Christiane",
+    "legion": ["轉生", "公主", "帝國"],
+    "class": ["騎", "步"]
+},{
+    "name": "修杰特",
+    "fileName": "Suzette",
+    "legion": ["流星", "轉生"],
+    "class": ["弓", "刺"]
+},{
+    "name": "伊普西龍",
+    "fileName": "Epsilon",
+    "legion": ["流星", "黑暗", "傳說"],
+    "class": ["魔", "步"]
+},{
+    "name": "茉",
+    "fileName": "Mu",
+    "legion": ["傳說", "超凡"],
+    "class": ["僧", "法"]
+},{
+    "name": "奧托克拉托四世",
+    "fileName": "Autokrato",
+    "legion": ["帝國", "轉生"],
+    "class": ["步"]
+},{
+    "name": "盧克蕾蒂婭",
+    "fileName": "Lucretia",
+    "legion": ["帝國", "公主", "轉生"],
+    "class": ["僧", "法"]
+},{
+    "name": "真田遼",
+    "fileName": "Ryou",
+    "legion": ["主角", "傳說", "時空"],
+    "class": ["僧", "步"]
+},{
+    "name": "迦游羅",
+    "fileName": "Kayura",
+    "legion": ["黑暗", "時空", "超凡"],
+    "class": ["僧", "刺"]
+},{
+    "name": "羽柴當麻",
+    "fileName": "Touma",
+    "legion": ["戰略", "時空"],
+    "class": ["僧", "弓"]
+},{
+    "name": "紅月之王",
+    "fileName": "LordOfCrimson",
+    "legion": ["起源", "黑暗", "超凡"],
+    "class": ["僧", "步"]
+},{
+    "name": "懷特茜茜",
+    "fileName": "WhiteSissi",
+    "legion": ["公主", "光輝"],
+    "class": ["僧", "法"]
+},{
+    "name": "帕希爾",
+    "fileName": "Patsyr",
+    "legion": ["黑暗", "轉生"],
+    "class": ["魔", "刺"]
+},{
+    "name": "托娃",
+    "fileName": "Towa",
+    "legion": ["戰略", "轉生", "起源"],
+    "class": ["步", "飛"]
+},{
+    "name": "邪神庫魯加",
+    "fileName": "Kreuger",
+    "legion": ["黑暗", "超凡"],
+    "class": ["魔", "法"]
+},{
+    "name": "文森特",
+    "fileName": "Vincent",
+    "legion": ["流星", "黑暗", "帝國"],
+    "class": ["魔", "飛"]
+},{
+    "name": "忍部火美子",
+    "fileName": "Himiko",
+    "legion": ["流星", "傳說", "時空"],
+    "class": ["刺"]
+},{
+    "name": "戰部渡",
+    "fileName": "Watarul",
+    "legion": ["主角", "傳說", "時空"],
+    "class": ["步"]
+},{
+    "name": "劍部武一郎",
+    "fileName": "Shibaraku",
+    "legion": ["傳說", "時空"],
+    "class": ["槍", "步"]
+},{
+    "name": "希爾達",
+    "fileName": "Hilda",
+    "legion": ["轉生", "帝國", "戰略"],
+    "class": ["騎", "槍"]
+},{
+    "name": "沃爾納",
+    "fileName": "Werner",
+    "legion": ["帝國", "轉生"],
+    "class": ["騎"]
+},{
+    "name": "降生之光",
+    "fileName": "Lightborn",
+    "legion": ["起源", "轉生", "光輝"],
+    "class": ["僧", "法"]
+},{
+    "name": "瑪麗埃爾",
+    "fileName": "Mariel",
+    "legion": ["轉生", "光輝"],
+    "class": ["僧"]
+},{
+    "name": "羅澤希爾",
+    "fileName": "Rozenciel",
+    "legion": ["帝國", "公主", "超凡"],
+    "class": ["僧", "法"]
+},{
+    "name": "克洛泰爾",
+    "fileName": "Clotaire",
+    "legion": ["戰略", "帝國"],
+    "class": ["步", "法"]
+},{
+    "name": "雅爾貝德",
+    "fileName": "Albedo",
+    "legion": ["黑暗", "轉生", "時空"],
+    "class": ["魔", "步"]
+},{
+    "name": "夏堤雅",
+    "fileName": "Shalltear",
+    "legion": ["流星", "黑暗", "時空"],
+    "class": ["槍", "魔"]
+},{
+    "name": "安茲烏爾恭",
+    "fileName": "AinsOoalGown",
+    "legion": ["黑暗", "時空", "轉生"],
+    "class": ["法", "魔"]
+},{
+    "name": "梅露帕妮",
+    "fileName": "Meropeni",
+    "legion": ["傳說", "公主", "光輝"],
+    "class": ["僧", "法"]
+},{
+    "name": "弗洛朗蒂婭",
+    "fileName": "Florentia",
+    "legion": ["轉生", "戰略", "帝國"],
+    "class": ["僧", "法"]
+},{
+    "name": "燕",
+    "fileName": "Tsubame",
+    "legion": ["流星", "轉生"],
+    "class": ["弓", "刺"]
+},{
+    "name": "樹之賢者",
+    "fileName": "MagusOfTheTree",
+    "legion": ["超凡", "傳說"],
+    "class": ["僧", "法"]
+},{
+    "name": "海倫娜",
+    "fileName": "Helena",
+    "legion": ["帝國", "光輝"],
+    "class": ["騎"]
+},{
+    "name": "諾埃米",
+    "fileName": "Noemi",
+    "legion": ["轉生", "光輝"],
+    "class": ["法"]
+},{
+    "name": "羅莎莉亞",
+    "fileName": "Rozalia",
+    "legion": ["轉生", "公主", "光輝"],
+    "class": ["僧", "騎"]
+},{
+    "name": "黎恩",
+    "fileName": "Rean",
+    "legion": ["主角", "超凡", "時空"],
+    "class": ["步"]
+},{
+    "name": "阿瑞安赫德",
+    "fileName": "Arianrhod",
+    "legion": ["轉生", "超凡", "時空"],
+    "class": ["僧", "槍"]
+},{
+    "name": "亞爾緹娜",
+    "fileName": "Altina",
+    "legion": ["帝國", "流星", "時空"],
+    "class": ["法", "飛"]
+},{
+    "name": "麗可麗絲",
+    "fileName": "Licorice",
+    "legion": ["轉生", "公主", "黑暗"],
+    "class": ["僧", "魔"]
+},{
+    "name": "蕾娜塔",
+    "fileName": "Renata",
+    "legion": ["轉生", "黑暗"],
+    "class": ["槍", "龍"]
+},{
+    "name": "伊露希亞",
+    "fileName": "Elucia",
+    "legion": ["戰略", "光輝"],
+    "class": ["水", "槍"]
+},{
+    "name": "希琳卡",
+    "fileName": "Sirink",
+    "legion": ["流星", "超凡"],
+    "class": ["弓", "步"]
+},{
+    "name": "阿雷斯",
+    "fileName": "Ares",
+    "legion": ["主角", "帝國", "轉生"],
+    "class": ["步", "飛"]
+},{
+    "name": "梅雅",
+    "fileName": "Maiya",
+    "legion": ["轉生", "帝國"],
+    "class": ["僧", "法"]
+},{
+    "name": "蒂德莉特",
+    "fileName": "Deedlit",
+    "legion": ["起源", "公主", "時空"],
+    "class": ["法", "步"]
+},{
+    "name": "亞修拉姆",
+    "fileName": "Ashram",
+    "legion": ["黑暗", "戰略", "時空"],
+    "class": ["飛", "騎"]
+},{
+    "name": "帕恩",
+    "fileName": "Parn",
+    "legion": ["主角", "起源", "時空"],
+    "class": ["騎", "步"]
+},{
+    "name": "比羅蒂絲",
+    "fileName": "Pirotess",
+    "legion": ["流星", "黑暗", "時空"],
+    "class": ["刺", "弓"]
+},{
+    "name": "布琳達",
+    "fileName": "Brenda",
+    "legion": ["流星", "傳說"],
+    "class": ["槍", "騎"]
+},{
+    "name": "阿卡婭",
+    "fileName": "Aka",
+    "legion": ["起源", "超凡", "光輝"],
+    "class": ["法", "騎"]
+},{
+    "name": "奧利弗",
+    "fileName": "Olivo",
+    "legion": ["流星", "傳說", "光輝"],
+    "class": ["刺"]
+},{
+    "name": "迷之騎士",
+    "fileName": "MysteryKnight",
+    "legion": ["傳說", "戰略"],
+    "class": ["法", "騎"]
+},{
+    "name": "維拉玖",
+    "fileName": "Virash",
+    "legion": ["流星", "傳說"],
+    "class": ["步", "水"]
+},{
+    "name": "女神化身",
+    "fileName": "PeakJessica",
+    "legion": ["起源", "超凡", "光輝"],
+    "class": ["僧", "法"]
+},{
+    "name": "艾米莉亞",
+    "fileName": "Emilia",
+    "legion": ["帝國", "公主"],
+    "class": ["僧", "槍"]
+},{
+    "name": "雷因法魯斯",
+    "fileName": "Lainforce",
+    "legion": ["傳說", "戰略", "超凡"],
+    "class": ["刺", "步"]
+},{
+    "name": "貝蒂",
+    "fileName": "Betty",
+    "legion": ["帝國", "黑暗", "光輝"],
+    "class": ["步"]
+},{
+    "name": "阿爾弗雷德",
+    "fileName": "Alfred",
+    "legion": ["流星", "傳說"],
+    "class": ["水", "步"]
+},{
+    "name": "浦飯幽助",
+    "fileName": "Yuusuke",
+    "legion": ["主角", "超凡", "時空"],
+    "class": ["僧", "魔"]
+},{
+    "name": "飛影",
+    "fileName": "Hiei",
+    "legion": ["流星", "起源", "時空"],
+    "class": ["魔", "刺"]
+},{
+    "name": "藏馬",
+    "fileName": "Kurama",
+    "legion": ["戰略", "傳說", "時空"],
+    "class": ["法", "魔"]
+},{
+    "name": "戶愚呂兄弟",
+    "fileName": "Toguro",
+    "legion": ["黑暗", "帝國", "時空"],
+    "class": ["魔", "騎"]
+},{
+    "name": "桑原和真",
+    "fileName": "Kazuma",
+    "legion": ["流星", "時空", "光輝"],
+    "class": ["槍", "步"]
+},{
+    "name": "尤莉婭",
+    "fileName": "Yulia",
+    "legion": ["超凡", "公主", "光輝"],
+    "class": ["僧", "步"]
+},{
+    "name": "歐米茄",
+    "fileName": "Omega",
+    "legion": ["流星", "黑暗"],
+    "class": ["弓", "刺"]
+},{
+    "name": "艾拉斯卓",
+    "fileName": "Alustriel",
+    "legion": ["起源", "戰略", "光輝"],
+    "class": ["弓"]
+},{
+    "name": "克拉蕾特",
+    "fileName": "Claret",
+    "legion": ["流星", "公主", "傳說"],
+    "class": ["飛", "步"]
+},{
+    "name": "真宮寺櫻",
+    "fileName": "Sakura",
+    "legion": ["帝國", "主角", "時空"],
+    "class": ["步", "騎"]
+},{
+    "name": "神崎堇",
+    "fileName": "Sumire",
+    "legion": ["帝國", "公主", "時空"],
+    "class": ["槍", "騎"]
+},{
+    "name": "愛麗絲",
+    "fileName": "Alice",
+    "legion": ["帝國", "公主", "時空"],
+    "class": ["僧", "法"]
+},{
+    "name": "安潔莉卡",
+    "fileName": "Anjelica",
+    "legion": ["時空", "光輝"],
+    "class": ["僧", "法"]
+},{
+    "name": "基札洛夫",
+    "fileName": "Gizlof",
+    "legion": ["黑暗", "超凡"],
+    "class": ["法", "魔"]
+},{
+    "name": "威拉",
+    "fileName": "Willer",
+    "legion": ["戰略", "傳說"],
+    "class": ["僧"]
+},{
+    "name": "賽蕾娜",
+    "fileName": "Serena",
+    "legion": ["戰略", "傳說"],
+    "class": ["槍", "步"]
+},{
+    "name": "西格瑪",
+    "fileName": "Sigma",
+    "legion": ["流星", "傳說", "主角"],
+    "class": ["弓", "步", "刺"]
+},{
+    "name": "拉姆達",
+    "fileName": "Lambda",
+    "legion": ["傳說", "主角", "超凡"],
+    "class": ["僧", "法"]
+},{
+    "name": "萊恩哈特",
+    "fileName": "Leonhardt",
+    "legion": ["帝國", "起源", "時空"],
+    "class": ["步"]
+},{
+    "name": "蕾恩",
+    "fileName": "Renne",
+    "legion": ["黑暗", "傳說", "時空"],
+    "class": ["法", "魔"]
+},{
+    "name": "奧利維爾",
+    "fileName": "Olivier",
+    "legion": ["帝國", "戰略", "時空"],
+    "class": ["弓"]
+},{
+    "name": "艾絲蒂爾",
+    "fileName": "Estelle",
+    "legion": ["主角", "光輝", "時空"],
+    "class": ["槍"]
+},{
+    "name": "約修亞",
+    "fileName": "Joshua",
+    "legion": ["流星", "公主", "時空"],
+    "class": ["魔", "刺"]
+},{
+    "name": "克洛絲",
+    "fileName": "Klose",
+    "legion": ["傳說", "公主", "時空"],
+    "class": ["僧", "法"]
+},{
+    "name": "蘭迪烏斯",
+    "fileName": "Randiovs",
+    "legion": ["傳說", "主角"],
+    "class": ["槍", "騎"]
+},{
+    "name": "蕾加爾",
+    "fileName": "Rachel",
+    "legion": ["傳說", "主角"],
+    "class": ["僧", "法"]
+},{
+    "name": "蘭芳特",
+    "fileName": "Ranford",
+    "legion": ["戰略", "傳說"],
+    "class": ["步", "騎"]
+},{
+    "name": "妮斯蒂爾",
+    "fileName": "Listell",
+    "legion": ["黑暗", "傳說"],
+    "class": ["魔"]
+},{
+    "name": "澤瑞達",
+    "fileName": "Zalrahda",
+    "legion": ["流星", "黑暗", "超凡"],
+    "class": ["魔", "刺"]
+},{
+    "name": "古巨拉",
+    "fileName": "Zigodlla",
+    "legion": ["流星", "起源", "超凡"],
+    "class": ["龍", "騎", "水"]
+},{
+    "name": "雪露法妮爾",
+    "fileName": "SchelFaniel",
+    "legion": ["公主", "傳說"],
+    "class": ["僧", "法"]
+},{
+    "name": "安傑麗娜",
+    "fileName": "Angelina",
+    "legion": ["流星", "公主", "傳說"],
+    "class": ["水", "飛"]
+},{
+    "name": "亞魯特謬拉",
+    "fileName": "Alutemurat",
+    "legion": ["戰略", "帝國", "黑暗"],
+    "class": ["飛", "槍"]
+},{
+    "name": "杰利奧魯&蕾拉",
+    "fileName": "JellioruLela",
+    "legion": ["戰略", "起源"],
+    "class": ["僧", "騎"]
+},{
+    "name": "露娜",
+    "fileName": "Luna",
+    "legion": ["戰略", "公主", "起源"],
+    "class": ["弓", "飛"]
+},{
+    "name": "蒂亞莉絲",
+    "fileName": "Tialice",
+    "legion": ["主角", "公主", "起源"],
+    "class": ["僧", "法"]
+},{
+    "name": "迪哈爾特",
+    "fileName": "Dehault",
+    "legion": ["主角", "起源", "流星"],
+    "class": ["刺", "騎"]
+},{
+    "name": "拉娜",
+    "fileName": "Lana",
+    "legion": ["黑暗", "公主"],
+    "class": ["僧", "法"]
+},{
+    "name": "波贊魯",
+    "fileName": "Bozel",
+    "legion": ["黑暗", "超凡"],
+    "class": ["魔", "法"]
+},{
+    "name": "利昂",
+    "fileName": "Leon",
+    "legion": ["帝國", "戰略"],
+    "class": ["騎"]
+},{
+    "name": "巴恩哈特",
+    "fileName": "Bernhardt",
+    "legion": ["帝國", "黑暗", "超凡"],
+    "class": ["龍", "步"]
+},{
+    "name": "莉亞娜",
+    "fileName": "Riana",
+    "legion": ["主角", "公主", "光輝"],
+    "class": ["僧", "法"]
+},{
+    "name": "艾爾文",
+    "fileName": "Elwin",
+    "legion": ["帝國", "主角", "光輝"],
+    "class": ["步", "騎", "槍"]
+},{
+    "name": "雪莉",
+    "fileName": "Sherry",
+    "legion": ["流星", "公主", "光輝"],
+    "class": ["僧", "飛", "刺"]
+},{
+    "name": "雷丁",
+    "fileName": "Ledyn",
+    "legion": ["主角", "光輝"],
+    "class": ["僧", "步"]
+},{
+    "name": "索菲亞",
+    "fileName": "Sofia",
+    "legion": ["起源", "公主", "超凡"],
+    "class": ["僧"]
+},{
+    "name": "莉法妮",
+    "fileName": "Leafani",
+    "legion": ["起源", "公主"],
+    "class": ["法"]
+},{
+    "name": "娜姆",
+    "fileName": "Nurm",
+    "legion": ["流星", "公主", "光輝"],
+    "class": ["弓", "飛"]
+},{
+    "name": "法娜",
+    "fileName": "Fana",
+    "legion": ["帝國", "黑暗"],
+    "class": ["弓", "飛"]
+},{
+    "name": "巴爾加斯",
+    "fileName": "Vargas",
+    "legion": ["帝國", "戰略"],
+    "class": ["步", "槍"]
+},{
+    "name": "伊梅爾達",
+    "fileName": "Imelda",
+    "legion": ["帝國", "戰略"],
+    "class": ["僧", "法"]
+},{
+    "name": "弗拉基亞",
+    "fileName": "Flakia",
+    "legion": ["流星", "黑暗"],
+    "class": ["刺", "魔"]
+},{
+    "name": "索妮婭",
+    "fileName": "Sonia",
+    "legion": ["帝國", "公主", "黑暗"],
+    "class": ["法", "騎"]
+},{
+    "name": "芙蕾亞",
+    "fileName": "Freya",
+    "legion": ["起源", "公主"],
+    "class": ["僧", "槍"]
+},{
+    "name": "克麗絲",
+    "fileName": "Chris",
+    "legion": ["主角", "公主", "光輝"],
+    "class": ["僧"]
+},{
+    "name": "海恩",
+    "fileName": "Hein",
+    "legion": ["帝國", "光輝"],
+    "class": ["僧", "法"]
+},{
+    "name": "銀狼",
+    "fileName": "SilverWolf",
+    "legion": ["流星", "起源"],
+    "class": ["弓", "刺"]
+},{
+    "name": "霧風",
+    "fileName": "Kirikaze",
+    "legion": ["流星", "起源"],
+    "class": ["步", "刺"]
+},{
+    "name": "埃格貝爾特",
+    "fileName": "Eggbert",
+    "legion": ["黑暗", "帝國", "戰略"],
+    "class": ["法"]
+},{
+    "name": "艾馬林克",
+    "fileName": "EmmaLink",
+    "legion": ["帝國", "戰略"],
+    "class": ["槍", "騎"]
+},{
+    "name": "蘭斯",
+    "fileName": "Lance",
+    "legion": ["帝國", "戰略", "光輝"],
+    "class": ["飛", "騎"]
+},{
+    "name": "蕾蒂西亞",
+    "fileName": "Leticia",
+    "legion": ["帝國", "戰略"],
+    "class": ["騎"]
+},{
+    "name": "潔西卡",
+    "fileName": "Jessica",
+    "legion": ["起源", "超凡", "光輝"],
+    "class": ["法"]
+},{
+    "name": "皮耶魯",
+    "fileName": "Pieru",
+    "legion": ["流星", "起源"],
+    "class": ["水"]
+},{
+    "name": "利斯塔",
+    "fileName": "Lester",
+    "legion": ["流星", "光輝"],
+    "class": ["水"]
+},{
+    "name": "利亞特",
+    "fileName": "Laird",
+    "legion": ["帝國", "流星"],
+    "class": ["騎"]
+},{
+    "name": "路因",
+    "fileName": "Rune",
+    "legion": ["起源"],
+    "class": ["步", "槍"]
+},{
+    "name": "安娜",
+    "fileName": "Anna",
+    "legion": ["帝國", "公主"],
+    "class": ["僧"]
+},{
+    "name": "迪歐斯",
+    "fileName": "Diors",
+    "legion": ["戰略", "起源"],
+    "class": ["騎"]
+},{
+    "name": "洛加",
+    "fileName": "Rouga",
+    "legion": ["帝國", "流星"],
+    "class": ["刺"]
+},{
+    "name": "斯科特",
+    "fileName": "Scott",
+    "legion": ["戰略", "光輝"],
+    "class": ["騎"]
+},{
+    "name": "基斯",
+    "fileName": "Kieth",
+    "legion": ["光輝"],
+    "class": ["飛"]
+},{
+    "name": "阿倫",
+    "fileName": "Aaron",
+    "legion": ["光輝"],
+    "class": ["槍"]
+},{
+    "name": "艾梅達",
+    "fileName": "Aimeeda",
+    "legion": ["主角", "光輝", "超凡"],
+    "class": ["僧"]
+},{
+    "name": "格尼爾",
+    "fileName": "Grenier",
+    "legion": ["光輝"],
+    "class": ["弓", "槍"]
+},{
+    "name": "馬修",
+    "fileName": "Matthew",
+    "legion": ["主角", "光輝"],
+    "class": ["步", "弓", "騎", "飛", "刺"]
+}]

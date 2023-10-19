@@ -1,0 +1,17 @@
+[{
+    "pageName": "pg1.png",
+    "pageDisplayName": "市政廳",
+    "reqiredClass": ["法", "僧", "飛"]
+},{
+    "pageName": "pg2.png",
+    "pageDisplayName": "蒼綠之息護林聯盟",
+    "reqiredClass": ["法", "僧", "騎"]
+},{
+    "pageName": "pg3.png",
+    "pageDisplayName": "大地之子研究院",
+    "reqiredClass": ["騎", "弓", "槍"]
+},{
+    "pageName": "pg4.png",
+    "pageDisplayName": "秘鐵意志兄弟會",
+    "reqiredClass": ["飛", "步", "魔"]
+}]

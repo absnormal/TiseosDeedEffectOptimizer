@@ -5,9 +5,9 @@ import { addLegionNumber } from './functions/addLegionNumber.js'
 import list from './json/charData.json'
 import OptimizeLinks from './OptimizeLinks.vue'
 
-const path = "/imgs/"
-const classPath = "/imgs/occupation/"
-const cardPath = "/imgs/card/Card_"
+const path = "/TiseosDeedEffectOptimizer/imgs/"
+const classPath = "/TiseosDeedEffectOptimizer/imgs/occupation/"
+const cardPath = "/TiseosDeedEffectOptimizer/imgs/card/Card_"
 const props = defineProps({
 	page: Object
 });

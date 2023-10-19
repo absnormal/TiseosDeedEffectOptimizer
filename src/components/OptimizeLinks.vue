@@ -3,9 +3,9 @@ import { watch, ref } from 'vue';
 import { sharedLegions } from './functions/sharedLegions.js'
 import pageLimits from './json/pageLimits.json'
 import DisplayChain from './DisplayChain.vue';
-const path = "/imgs/"
-const headPath = "/imgs/head/Head_"
-const classPath = "/imgs/occupation/"
+const path = "/TiseosDeedEffectOptimizer/imgs/"
+const headPath = "/TiseosDeedEffectOptimizer/imgs/head/Head_"
+const classPath = "/TiseosDeedEffectOptimizer/imgs/occupation/"
 
 const props = defineProps({
 	pageDisplayName: String,

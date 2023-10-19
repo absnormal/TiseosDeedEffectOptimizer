@@ -14,5 +14,5 @@ export default defineConfig({
     }
   },
   base: '/TiseosDeedEffectOptimizer/',
-  publicDir: './src/assets/'
+  publicDir: './src/assets/TiseosDeedEffectOptimizer/'
 })

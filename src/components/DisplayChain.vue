@@ -2,7 +2,7 @@
 import { watch } from 'vue'
 import { sharedLegions } from './functions/sharedLegions'
 import pageLimits from './json/pageLimits.json'
-const path = "/imgs/"
+const path = "/TiseosDeedEffectOptimizer/imgs/"
 const chainPath = ["Frame_Chain02", "Frame_Chain03", "Frame_Chain04"]
 const chainColor = ["gray", "mediumblue", "cyan"]
 

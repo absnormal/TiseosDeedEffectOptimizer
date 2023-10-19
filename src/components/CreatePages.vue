@@ -3,7 +3,7 @@
 import { ref } from 'vue'
 import pages from './json/pageData.json'
 import CustomizableCharacterPool from './CustomizableCharacterPool.vue'
-const path = "/imgs/"
+const path = "/TiseosDeedEffectOptimizer/imgs/"
 const currentPage = ref(pages[3]);
 
 // switch pages

@@ -13,9 +13,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: '/TiseosDeedEffectOptimizer/',
+  base: process.env.NODE_ENV === 'production' ? '/TiseosDeedEffectOptimizer/' : './',
   publicDir: './src/assets/',
   build: {
-    outDir: '/TiseosDeedEffectOptimizer/'
+    outDir: 'dist/TiseosDeedEffectOptimizer/'
   }
 })

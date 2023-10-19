@@ -3,6 +3,7 @@
 import { ref } from 'vue'
 import pages from './json/pageData.json'
 import CustomizableCharacterPool from './CustomizableCharacterPool.vue'
+import README from './README.vue';
 const path = "/TiseosDeedEffectOptimizer/imgs/"
 const currentPage = ref(pages[3]);
 
@@ -18,15 +19,16 @@ changePage(pages[3]);
     <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
         <template v-for="(page, index) in pages" :key="index" >
             <input type="radio" class="btn-check" name="pageSelect" :id="index" autocomplete="off" @click="changePage(page)" checked>
-            <label class="btn btn-outline-primary" :for="index">{{ page.pageDisplayName }}</label>
+            <label class="btn btn-primary" :for="index">{{ page.pageDisplayName }}</label>
         </template>
     </div>
     <!-- img from current page -->
     <div :style="{backgroundImage: `url(${path}${currentPage.pageName})`,
             backgroundSize: `100%`,
             backgroundRepeat: `no-repeat`,
-            height: `150vh`
+            height: `110vh`
     }">
         <CustomizableCharacterPool :page="currentPage"/>
     </div>
+    <README/>
 </template>

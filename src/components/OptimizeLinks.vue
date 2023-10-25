@@ -17,22 +17,28 @@ function highlightHero(heros){
 	emit('linkOptimized', heros)
 }
 
+const minSharedLegions = ref(2);
+function changeMinSharedLegions(){
+	if(minSharedLegions.value == 2) minSharedLegions.value = 1;
+	else if(minSharedLegions.value == 1) minSharedLegions.value = 2;
+}
+
 let limits = {};
 const optimizedCombination = ref();
 let tmpCombination = [];
 let maxLinks = 0;
 let classOnMapRequired = pageLimits.filter((limit) => limit.pageDisplayName === props.pageDisplayName)[0].classRequired;
-let classOnMapPosition = pageLimits.filter((limit) => limit.pageDisplayName === props.pageDisplayName)[0].position;
+let heroOnMapPosition = pageLimits.filter((limit) => limit.pageDisplayName === props.pageDisplayName)[0].heroPos;
 
 function getCombinationOfHero(charList, choosedHeros, numHeroNeed){
 	if(numHeroNeed > 0){
-		charList.forEach(function(hero){
+		charList.forEach(function(hero, index){
 			// check new hero have the right class
 			if(hero.class.includes(limits.classRequired[limits.total-numHeroNeed])){
 				// check every link of new hero added have enough shared legions
 				let anyLinkFail = false;
 				for(let i=0; i<limits.total-numHeroNeed; i++){
-					if(limits.linkMap[limits.total-numHeroNeed][i] && sharedLegions(hero, choosedHeros[i]) < limits.minSharedLegions){
+					if(limits.linkMap[limits.total-numHeroNeed][i] && sharedLegions(hero, choosedHeros[i]) < minSharedLegions.value){
 						anyLinkFail = true;
 						break;
 					}
@@ -74,7 +80,7 @@ function optimizeLinks(list, name){
 	
 	limits = pageLimits.filter((limit) => limit.pageDisplayName === name)[0];
 	classOnMapRequired = pageLimits.filter((limit) => limit.pageDisplayName === name)[0].classRequired;
-	classOnMapPosition = pageLimits.filter((limit) => limit.pageDisplayName === name)[0].position;
+	heroOnMapPosition = pageLimits.filter((limit) => limit.pageDisplayName === name)[0].heroPos;
 	
 	tmpCombination = [];
 	maxLinks = 0;
@@ -90,10 +96,21 @@ function optimizeLinks(list, name){
 	highlightHero(tmpCombination);
 }
 
+let classList = [];
+function countClass(list){
+	// count every class number
+	classList = [["飛", 0], ["僧", 0], ["騎", 0], ["弓", 0], ["槍", 0], ["法", 0], ["步", 0], ["魔", 0]];
+	list.forEach(function(char){
+		classList.forEach(function(c, index){
+			if(char.class.includes(c[0])) classList[index][1] += 1;
+		});
+	})
+}
+
 watch(
 	() => props.charList,
 	(newList, oldList) => {
-		console.log("props.charList changed");
+		//console.log("props.charList changed");
 		optimizeLinks(newList.filter((hero) => hero.disable === false), props.pageDisplayName);
 	},
 	{ deep: true }
@@ -101,7 +118,9 @@ watch(
 watch(
 	() => props.pageDisplayName,
 	(newPage) => {
-		console.log("props.pageDisplayName changed");
+		//console.log("props.pageDisplayName changed");
+		minSharedLegions.value = 2;
+		countClass(props.charList.filter((hero) => hero.disable === false));
 		optimizeLinks(props.charList.filter((hero) => hero.disable === false), newPage);
 	},
 	// do once even watch not triggered by "immediate"
@@ -112,39 +131,45 @@ watch(
 <template>
 	<div v-for="(char, index) in optimizedCombination" :class="$style.cardMapDiv" 
 	:style="{
-		top: `${classOnMapPosition[index][0]}vh`,
-		left: `${classOnMapPosition[index][1]}vw`
+		top: `${heroOnMapPosition[index][0]}%`,
+		left: `${heroOnMapPosition[index][1]}%`
 	}">
 		<div class="row" :style="{paddingLeft:`10%`, paddingRight:`10%`}">
-			<div v-for="legion in char.legion" class="col-4" :style="{padding: `2%`}">
+			<div v-for="legion in char.legion" class="col-4" :class="$style.cardLegionDiv">
 				<img :src="path+legion+`.png`" class="img-fluid">
 			</div>
 		</div>
 		<a>
 			<img :src="headPath+char.fileName+`.png`" class="img-fluid">
-			<img :src="classPath+classOnMapRequired[index]+`.png`" class="img-fluid"
-			:style="{
-				position: `absolute`,
-				left: `0vw`,
-				width: `40%`,
-				top: `16vh`
-			}">
+			<img :src="classPath+classOnMapRequired[index]+`.png`" class="img-fluid" :class="$style.cardClassImg">
 		</a>
 	</div>
 	<DisplayChain
 		:charList="optimizedCombination" :pageDisplayName="pageDisplayName"
 	/>
+	<div>
+		<button class="btn btn-primary" type="submit" @click="changeMinSharedLegions()">最少連結數={{minSharedLegions}}</button>
+	</div>
 </template>
 
 <style module>
 .cardMapDiv {
-	margin-top: 2%;
-	margin-bottom: 1%;
-	padding-left: 0%;
-	padding-right: 0%;
 	background-color: gray;
 	border-radius: 10px;
 	position: absolute;
-	width: 8%;
+	width: 9%;
+	transform: translate(-50%, -50%);
+}
+.cardClassImg {
+	position: absolute;
+	left: 0%;
+	width: 35%;
+	top: 73%;
+}
+.cardLegionDiv {
+	position: relative;
+	margin-top: -2%;
+	margin-bottom: -2%;
+	padding: 2%;
 }
 </style>

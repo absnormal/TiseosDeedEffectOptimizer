@@ -24,7 +24,7 @@ watch(
             chainMap.forEach(function(link, index){
                 chainList[index] = sharedLegions(newList[link[0]], newList[link[1]])
             });
-            console.log(chainList)
+            //console.log(chainList)
         } else {
             chainList = [];
         }
@@ -34,17 +34,15 @@ watch(
 </script>
 
 <template>
-    <div>
-        <template v-for="(chain, index) in chainList">
-            <div :class="$style.chainDiv" :style="{
-                top: `${page.chainPos[index][0]}vh`,
-                left: `${page.chainPos[index][1]}vw`,
-                color: `${chainColor[chain-1]}`
-            }">
-                {{ chain }}
-            </div>
-        </template>
-    </div>
+    <template v-for="(chain, index) in chainList">
+        <div :class="$style.chainDiv" :style="{
+            top: `${(page.heroPos[page.chainMap[index][0]][0]+page.heroPos[page.chainMap[index][1]][0])/2}%`,
+            left: `${(page.heroPos[page.chainMap[index][0]][1]+page.heroPos[page.chainMap[index][1]][1])/2}%`,
+            color: `${chainColor[chain-1]}`
+        }">
+            {{ chain }}
+        </div>
+    </template>
 </template>
 
 <style module>
@@ -52,5 +50,6 @@ watch(
 	position: absolute;
     font-family: fantasy;
     font-size: xxx-large;
+	transform: translate(-50%, -50%);
 }
 </style>

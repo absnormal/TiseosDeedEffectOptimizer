@@ -1,6 +1,7 @@
 <script setup>
 // do once each "CreatePages" creation
 import { ref } from 'vue'
+import { useWindowSize } from '@vueuse/core'
 import pages from './json/pageData.json'
 import CustomizableCharacterPool from './CustomizableCharacterPool.vue'
 import README from './README.vue';
@@ -12,6 +13,11 @@ function changePage(newPage){
     currentPage.value = newPage;
 }
 changePage(pages[3]);
+
+// screen size
+const { width, height } = useWindowSize()
+// pg background 1920*988
+// App.vue padding 2rem(64px)
 </script>
 
 <template>
@@ -26,7 +32,8 @@ changePage(pages[3]);
     <div :style="{backgroundImage: `url(${path}${currentPage.pageName})`,
             backgroundSize: `100%`,
             backgroundRepeat: `no-repeat`,
-            height: `110vh`
+            height: `${Math.round((width-80)/1920*988)}px`,
+            position: `relative`
     }">
         <CustomizableCharacterPool :page="currentPage"/>
     </div>

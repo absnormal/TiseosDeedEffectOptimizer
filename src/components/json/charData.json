@@ -1,4 +1,14 @@
 [{
+    "name": "安德里奧",
+    "fileName": "Andriole",
+    "legion": ["流星", "帝國", "戰略"],
+    "class": ["騎"]
+},{
+    "name": "奈米婭",
+    "fileName": "Nemia",
+    "legion": ["戰略", "傳說", "光輝"],
+    "class": ["弓"]
+},{
     "name": "神降者",
     "fileName": "Apotheosis",
     "legion": ["超凡", "黑暗", "傳說"],
